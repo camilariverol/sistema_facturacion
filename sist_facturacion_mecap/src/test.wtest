@@ -1,0 +1,17 @@
+import modelos.*
+
+
+describe "pruebas facturas" {
+	
+	test "El abono total del cliente 3 es igual a 30"{
+		assert.equals(30,factura_cliente3.abonoTotal())
+	}
+	
+	test "El abono total del cliente 1 es igual a 76.7"{
+		assert.equals(76.1,factura_cliente1.abonoTotal())
+	}
+	test "El abono total del cliente 2 es igual a 60"{
+		assert.equals(60,factura_cliente2.abonoTotal())
+	}
+	
+}
